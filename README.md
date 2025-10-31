@@ -78,7 +78,7 @@ A. Multibranch Pipeline (recommended for GitHub branches)
 
 B. Pipeline job (single branch)
 - New Item -> Pipeline
-- In Pipeline definition select "Pipeline script from SCM -> Git"
+- In Pipeline definition, select "Pipeline script from SCM -> Git"
 - Repository URL -> your GitHub repo
 - Credentials -> `git-creds`
 - Branch -> main (or master)
@@ -108,4 +108,4 @@ Notes and tips
 - If Docker push fails with permission denied, re-check credentials and repo name (`<dockerhub-user>/<repo>`).
 
 License
-- Use this sample freely in your portfolio.
+- MIT
